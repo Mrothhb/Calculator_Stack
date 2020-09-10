@@ -1,0 +1,118 @@
+Script started on Sun Jan 20 13:29:34 2019
+[?1h=
+******************************************************************
+                        WELCOME TO CSE 12!
+
+****************************************************************** 
+[7m/home/linux/ieng6/cs12x/public/broadcast (END)[27m[K[K[K[?1l>]0;[cs12x]  cs12xcm@its-cseb250-04.ucsd.edu:/home/linux/ieng6/cs12x/cs12xcm/hw3[?1034h[cs12xcm@its-cseb250-04]:hw3:503$ ./driver -x
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  a
+Please enter the number of objects to be able to store: 4
+[Stack 1 has been allocated]
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  u
+
+Please enter a number to push to stack:  1
+[Stack 1 - Pushing 1]
+Stack push success!
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  u
+
+Please enter a number to push to stack:  2
+[Stack 1 - Pushing 2]
+Stack push success!
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  u
+
+Please enter a number to push to stack:  3
+[Stack 1 - Pushing 3]
+Stack push success!
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  u
+
+Please enter a number to push to stack:  4
+[Stack 1 - Pushing 4]
+Stack push success!
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  i
+Stack is not empty.
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  f
+Stack is full.
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  p
+[Stack 1 - Popping 4]
+Number popped from the stack is:  4
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  p
+[Stack 1 - Popping 3]
+Number popped from the stack is:  3
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  n
+Number of elements on the stack is:  2
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  w
+
+The Stack contains:
+1 2 
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  d
+[Stack 1 has been deallocated]
+Stack has been deleted.
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  n
+get_occupancy check from a non-existent stack!!!
+Number of elements on the stack is:  0
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  i
+Is empty check from a non-existent stack!!!
+Stack is not empty.
+
+Please enter a command:
+	(a)llocate, (d)eallocate, p(u)sh, (p)op, (t)op, (i)sempty, (e)mpty, 
+	is(f)ull, (n)um_elements, (w)rite to stdout, (W)rite to stderr.
+Please enter choice:  
+[cs12xcm@its-cseb250-04]:hw3:504$ exit
+exit
+
+Script done on Sun Jan 20 13:30:30 2019
